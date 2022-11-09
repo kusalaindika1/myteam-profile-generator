@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  color: #121212;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  color: #eee !important;
+}
+
+nav {
+  padding: 20px 0;
+  background-color: #1f1f1f;
+  box-shadow: rgba(0, 208, 255, 0.19) 0px 10px 20px,
+    rgba(0, 208, 255, 0.23) 0px 6px 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0 100px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.details__block {
+  width: 230px;
+  height: 270px;
+  background-color: #1e1e1e;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.block__header {
+  padding: 15px;
+  background-color: rgb(0, 194, 228);
+  color: black !important;
+}
+
+.block__header img {
+  width: 20px;
+  object-fit: contain;
+}
+
+.block__header div {
+  display: flex;
+  align-items: center;
+}
+
+.block__header p {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.block__body {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.block__body p {
+  margin-top: 10px;
+  font-size: 14px;
+
+  color: #eee;
+}
+
+.block__body p span {
+  color: rgb(0, 194, 228);
+  font-weight: bold;
+}
