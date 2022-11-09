@@ -17,6 +17,8 @@ SO THAT I have quick access to their emails and GitHub profiles
 
 # Github link
 
+https://github.com/kusalaindika1/myteam-profile-generator
+
 ## video link
 
 https://drive.google.com/file/d/1_-c7OlZhSkbwWLLYPfD-u6MS6vxpJnzj/view
